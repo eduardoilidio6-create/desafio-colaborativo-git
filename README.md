@@ -22,12 +22,12 @@ O projeto serve como ambiente de aprendizado para desenvolver habilidades de:
 - uso do GitHub como ferramenta de trabalho coletivo.
 
 
-## Problema de Multiplicação
+## Problema de adição
 
 ```python
-num1 = int(input("digite seu numero: "))
+valor1 = float(input("Digite o primeiro valor: "))
+valor2 = float(input("Digite o segundo valor: "))
 
-num2 = int(input("por quanto deseja multiplicar? "))
+soma = valor1 + valor2
 
-print(f"seu valor é: {num1 * num2}")
-```
+print("A soma é:", soma)
