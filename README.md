@@ -30,4 +30,20 @@ valor2 = float(input("Digite o segundo valor: "))
 
 soma = valor1 + valor2
 
+
+
+```python
+## Problema de Fatoração
+
+num = int(input("Digite um número: "))
+
+fatorial = 1
+
+for i in range(1, num + 1):
+    fatorial *= i
+
+print(f"O fatorial de {num} é: {fatorial}")
+```
+=======
 print("A soma é:", soma)
+>>>>>>> 5f3cbf6abaae8e6789777f1eeee95bb331678cd8
