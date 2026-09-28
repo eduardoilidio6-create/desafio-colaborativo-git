@@ -31,3 +31,19 @@ num2 = int(input("por quanto deseja multiplicar? "))
 
 print(f"seu valor é: {num1 * num2}")
 ```
+
+## Problema de fatoração
+
+```python
+## Problema de Fatoração
+
+```python
+num = int(input("Digite um número: "))
+
+fatorial = 1
+
+for i in range(1, num + 1):
+    fatorial *= i
+
+print(f"O fatorial de {num} é: {fatorial}")
+```
