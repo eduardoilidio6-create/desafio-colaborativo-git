@@ -20,3 +20,14 @@ O projeto serve como ambiente de aprendizado para desenvolver habilidades de:
 - revisão de alterações;
 - organização de commits e PRs;
 - uso do GitHub como ferramenta de trabalho coletivo.
+
+
+## Problema de Multiplicação
+
+```python
+num1 = int(input("digite seu numero: "))
+
+num2 = int(input("por quanto deseja multiplicar? "))
+
+print(f"seu valor é: {num1 * num2}")
+```
