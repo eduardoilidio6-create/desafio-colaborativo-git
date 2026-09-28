@@ -22,7 +22,9 @@ O projeto serve como ambiente de aprendizado para desenvolver habilidades de:
 - uso do GitHub como ferramenta de trabalho coletivo.
 
 
+## Problema de adição
 
+```python
 valor1 = float(input("Digite o primeiro valor: "))
 valor2 = float(input("Digite o segundo valor: "))
 
