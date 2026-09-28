@@ -22,22 +22,19 @@ O projeto serve como ambiente de aprendizado para desenvolver habilidades de:
 - uso do GitHub como ferramenta de trabalho coletivo.
 
 
-## Problema de Multiplicação
+## Problema de adição
 
 ```python
-num1 = int(input("digite seu numero: "))
+valor1 = float(input("Digite o primeiro valor: "))
+valor2 = float(input("Digite o segundo valor: "))
 
-num2 = int(input("por quanto deseja multiplicar? "))
+soma = valor1 + valor2
 
-print(f"seu valor é: {num1 * num2}")
-```
 
-## Problema de fatoração
 
 ```python
 ## Problema de Fatoração
 
-```python
 num = int(input("Digite um número: "))
 
 fatorial = 1
@@ -47,3 +44,6 @@ for i in range(1, num + 1):
 
 print(f"O fatorial de {num} é: {fatorial}")
 ```
+=======
+print("A soma é:", soma)
+>>>>>>> 5f3cbf6abaae8e6789777f1eeee95bb331678cd8
