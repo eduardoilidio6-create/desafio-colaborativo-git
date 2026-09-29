@@ -5,3 +5,7 @@ def divisao(a, b):
 
 if __name__ == "__main__":
     print("Teste da divisão (10 / 2):", divisao(10, 2))
+
+def subtracao(a, b):
+    return a - b
+print("Teste da subtração (10 - 3):", subtracao(10, 3))
